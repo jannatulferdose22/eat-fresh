@@ -57,6 +57,7 @@ margin-bottom: 50px;
     background-repeat: no-repeat;
     height:600px ;
     margin-bottom: 200px;
+    background-size: cover;
 }
 .wrapper{
     display: flex;
