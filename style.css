@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 200px;
 
 }
 .content-part{
@@ -32,16 +33,6 @@ font-weight: 500;
 line-height: 160%;
 margin-bottom: 50px;
 }
-.content-part a{
-    border-radius: 100px;
-    background: var(--gradient, linear-gradient(88deg, #FBA24F -7.64%, #FF1E1E 145.94%));
-    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.50);
-    padding: 24px 32px;
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-
-}
 .image-part{
     width: 40%;
 }
@@ -49,3 +40,166 @@ margin-bottom: 50px;
     width: 100%;
 }
 /* banner end */
+/* common btn starts */
+.common-btn{
+    border-radius: 100px;
+    background: var(--gradient, linear-gradient(88deg, #FBA24F -7.64%, #FF1E1E 145.94%));
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.50);
+    padding: 24px 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* common btn end */
+/* about me start */
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    height:600px ;
+    margin-bottom: 200px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.about-me-img{
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 240px;
+}
+.about-me-img img{
+    width: 50%;
+}
+.about-me-content{
+    width: 40%;
+    margin-top: 130px;
+    margin-right: 240px;
+}
+.about-me-content h2{
+    color: #707070;
+    font-size: 40px;  
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 32px; 
+}
+.about-me-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-bottom: 90px;
+}
+/* about me end */
+/* my recipies start */
+.my-recipies{
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    text-align: center;
+}
+.my-recipies h2{
+    color: #676767;
+}
+.my-recipies p{
+    color: #252525;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 136.4%;
+    margin-top:30px ; 
+}
+/* my recipies end */
+/* recipe title start */
+.recipe{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+.s-item{
+    width: 610px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+.s-item img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.s-item h2{
+    color: var(--Text-Gray-900, #18191F);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.s-item p{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+/* recipe title end */
+/* social start */
+.social{
+    margin-bottom: 100px !important;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: var(--Default-White, #FFF);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+    padding: 64px 165px;
+}
+.wrap{
+    display: flex;
+    justify-content:space-around;
+}
+.first h2{
+    font-size: 48px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.first p{
+    font-size: 16px;
+font-weight: 400;
+}
+.second h2{
+    font-size: 48px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.second p{
+    font-size: 16px;
+font-weight: 400;
+}
+.third h2{
+    font-size: 48px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.third p{
+    font-size: 16px;
+font-weight: 400;
+}
+
+/* social end */
+/* footer start */
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: var(--Default-Black, #0B0D17);
+    padding: 70px;
+}
+footer h2{
+   color:  #5B5B5B;
+   font-size: 30px;
+font-weight: 800;
+margin-bottom: 35px;
+}
+footer span{
+    color: orange;
+}
+footer p{
+    font-size: 16px;
+font-weight: 400;
+color:white ;
+}
+/* footer end */
