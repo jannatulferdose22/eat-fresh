@@ -185,7 +185,6 @@ font-weight: 400;
 /* footer start */
 footer{
     text-align: center;
-    margin-bottom: 50px;
     background-color: var(--Default-Black, #0B0D17);
     padding: 70px;
 }
